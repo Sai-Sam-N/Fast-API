@@ -31,7 +31,9 @@ Trying to deactivate the virtual environment :
 ![alt text](image-2.png)
 
 #### Installations:
-![alt text](image-3.png)
+![alt text](image-3.png) <br>
+Installing pandas and numpy: 
+![alt text](image-4.png) <br>
 
 #### The FastAPI app 
 * Refer main.py ; It's just another flask application.
@@ -46,6 +48,10 @@ This is a functionality provided by FastAPI where you needn't create your fronte
 
 #### FastAPI - redoc {a functionality by OpenAPI}
 Another page / functionality thats same as your docs page. 
+
+### ML Application
+Dataset : [Bank Note Authentication UCI Data](https://www.kaggle.com/datasets/ritesaluja/bank-note-authentication-uci-data)
+1 - real bank note, 0 - false note. 
 
 
 
