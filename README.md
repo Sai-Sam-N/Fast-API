@@ -33,6 +33,22 @@ Trying to deactivate the virtual environment :
 #### Installations:
 ![alt text](image-3.png)
 
+#### The FastAPI app 
+* Refer main.py ; It's just another flask application.
+* Only difference, it uses uvicorn to run the FastAPI application by applying ASGI.
+
+#### Running the FastAPI app file
+Let's say you have your FastAPI app in a file called `main.py` and the app is initialized as  `app=FastAPI()`. Then the following is how you deploy / run your FastAPI app -
+`uvicorn main:app --reload`
+
+#### FastAPI - docs page {a functionality by Swagger}
+This is a functionality provided by FastAPI where you needn't create your frontend pages to test your API's get functionality. Instead, this page will list the number of `GET` endpoints that your app contains. You just need to provide the respective values in the respective fields and check the output for yourself. 
+
+#### FastAPI - redoc {a functionality by OpenAPI}
+Another page / functionality thats same as your docs page. 
+
+
+
 ### Asynchronous and Synchronous (differences and details)
 
 <----- Notes ----->
