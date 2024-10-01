@@ -52,6 +52,11 @@ Another page / functionality thats same as your docs page.
 ### ML Application
 Dataset : [Bank Note Authentication UCI Data](https://www.kaggle.com/datasets/ritesaluja/bank-note-authentication-uci-data)
 1 - real bank note, 0 - false note. 
+#### I. Get the Kaggle API
+[Reference Video](https://youtu.be/uL0-6kfiH3g?si=WlX1H6zQrw_IYMji) <br>
+![alt text](image-5.png) <br>
+[Read Kaggle API documentation](https://www.kaggle.com/docs/api) <br>
+`pip install kaggle`
 
 
 
